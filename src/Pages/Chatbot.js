@@ -1,8 +1,8 @@
 import React from 'react';
 import Chatbot from 'react-chatbot-kit';
 import config from '../Chatbot/config';
-import MessageParser from '../Chatbot/messageParser';
-import ActionProvider from '../Chatbot/actionProvider';
+import MessageParser from '../Chatbot/MessageParser';
+import ActionProvider from '../Chatbot/ActionProvider';
 import { FadeIn } from 'react-anim-kit';
 import { useNavigate } from 'react-router-dom';
 
