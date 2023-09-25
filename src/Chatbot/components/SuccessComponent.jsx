@@ -11,7 +11,7 @@ function SuccessComponent() {
         setCountDown(countDown - 1);
       }, 1000);
     else navigate('/exit');
-  }, [countDown]);
+  }, [countDown,navigate]);
 
   return (
     <div>
